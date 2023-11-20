@@ -14,8 +14,8 @@ def parse_algorithm():
     options.add_argument('--headless')
     driver = webdriver.Firefox(options=options)
     driver.get('https://4kzn.agency/')
-    username = '9083345918'
-    password = 'yshiteri'
+    username = 'ENTER YOU LOGIN'
+    password = 'ENTER YOU PASSWORD'
     username_input = driver.find_element(by=By.NAME, value='username')
     password_input = driver.find_element(by=By.NAME, value='password')
     username_input.send_keys(username)
