@@ -6,9 +6,9 @@ import random
 
 class Telegram_Callback():
     def __init__(self):
-        self.bot=telebot.TeleBot('5970795201:AAE_tCispiE9cegcMkNyOQw3MxgFlxPWebg')
-        self.owner_list=['1041676367',
-                         '1366212051'
+        self.bot=telebot.TeleBot('ENTER YOUR TELEBOT API')
+        self.owner_list=['ENTER THE PERSONS WHOS NEED TO MESSAGE',
+                         'ENTER THE PERSONS WHOS NEED TO MESSAGE'
                          ]
         random_value =["мачо-дача-хата-хаус","Ищу квартиру","Подбираю новые варики..."]
         [self.bot.send_message(i,random.choice(random_value)) for i in self.owner_list]
